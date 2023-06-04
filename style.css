@@ -1,0 +1,117 @@
+*{
+    background-color: lightpink;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+h5{
+    background-color: rgb(210, 59, 109);
+}
+.lips{
+    font-size: xx-small;
+}
+.love p{
+    font-size: 10px;
+}
+#caption h5{
+    color: rgb(253, 222, 232);
+}
+#caption p{
+    color: rgb(250, 250, 250);
+}
+.convention-title-color{
+    color: #a70a0a;
+}  
+button a{
+    text-decoration:none;
+    color: rgb(38, 192, 192);
+    
+}
+.text-secondary{
+    font-size: 20px;
+   
+    
+    
+}
+.sweetheart{
+    font-size: 10px;
+}
+.slider-button{
+    border: none;
+    border-radius: 3px;
+    padding: 9px 50px;
+    
+  
+}
+.toast{
+    display: block!important;
+}
+
+
+#third-card{
+    height: 450px;
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 15px;
+    position:relative;
+    bottom: 70px;
+}
+footer{
+    height: 200px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #0B0D17;
+    color: #fff;
+}
+.app-color{
+    background-color: #0B0D17!important;
+}
+footer .row .col{
+    margin-top: 50px;
+    padding: 10px;
+}
+small{
+    color: #D9DBE1;
+}
+.apps{
+    
+    display: flex;
+    flex-direction: column;
+}
+.worked-with{
+    height: 460px;
+}
+/* Media Query for mobile device */
+@media (max-width:700px) {
+    .slider-button{
+        font-size:x-small;
+        font-weight: 100;
+        padding: 6px;
+    }
+    #third-card{
+        bottom: -10px;
+    }
+    .small p{
+        font-size: small;
+    }
+    .video{
+        height: 160px !important;
+      
+    }
+   
+}
+/* Ipad devices */
+@media (min-width:701px) and (max-width:900px){
+    footer{
+     
+        height: 400px;
+    }
+    #third-card{
+        bottom: -10px;
+    }
+    
+    .video{
+        height: 200px !important;
+      
+    }
+}
